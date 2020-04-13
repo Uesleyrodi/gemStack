@@ -28,7 +28,7 @@ Quando("eu submeto minhas credenciais com senha inválida") do
 
 end
 
-Então("devo ver uma mensagem de alerta {string}") do |mensagem|
+Então("devo ver uma mensagem de alerta {string}") do |message|
     invalid_user = find(".alert span").text
-    expect(invalid_user).to eql mensagem
+    expect(invalid_user).to eql message
 end

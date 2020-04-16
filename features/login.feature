@@ -6,17 +6,15 @@ Funcionalidade: Login
     Posso acessar o sistema com meu e-mail e senha
 
     Contexto:
-    Dado que acesso à página principal
+        Dado que acesso à página principal
 
     Cenario: Acessar o portal
 
-        Dado que acesso à página principal
         Quando eu submeto minhas credenciais "uesley_rsantos2@hotmail.com" e "pwd123"
         Então devo ser autenticado
 
     Esquema do Cenario: Tentar logar
 
-        Dado que acesso à página principal
         Quando eu submeto minhas credenciais "<email>" e "<senha>"
         Então devo ver uma mensagem de alerta "<texto>"
 

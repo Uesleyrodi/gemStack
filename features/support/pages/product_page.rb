@@ -12,6 +12,8 @@ class  ProductPage
 
         find("input[name=price]").set product["preco"]
 
+        find(".producers").set product["produtores"]
+
         find("textarea[name=description]").set product["descricao"]
 
         click_button "Cadastrar"

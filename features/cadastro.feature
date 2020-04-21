@@ -5,11 +5,11 @@ Funcionalidade: Cadastro de produtos
     Sendo um adiministrado de catálogo
     Posso cadastrar um novo produtos
 
-    @auth
+    @auth @smoke
     Cenario: Novo produto
         
         Dado que eu tenho o seguinte produto:
-            | nome        | categoria     | preco | produtores | descricao               |
-            | Donkey Kong | Super Nitendo | 49.99 | Konami     | Um jogo muito divertido |
+            | nome        | categoria      | preco | produtores | descricao               |
+            | Donkey Kong | Super Nintendo | 49.99 | Konami     | Um jogo muito divertido |
         Quando eu faço o cadastro desse item
         Entao devo ver este item na lista de produtos

@@ -76,6 +76,7 @@ DEPENDENCIES
   cucumber
   ffi
   pg
+  rack
   report_builder
   rspec
   selenium-webdriver
